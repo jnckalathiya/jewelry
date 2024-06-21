@@ -4,13 +4,14 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #333;
+    overflow-x: hidden;
 }
 
 /* Comman CSS Start */
 /* Container CSS */
 .container {
     display: block;
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -740,6 +741,7 @@ ul {
     display: block;
     padding: 35px 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .featured-outer .main-inner {
@@ -842,6 +844,7 @@ ul {
     background-size: cover;
     box-sizing: border-box;
     background-position: center center;
+    overflow: hidden;
 }
 
 .arrivals-outer .main-inner {
@@ -876,6 +879,7 @@ ul {
     display: block;
     padding: 35px 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .client-outer .main-inner {
@@ -888,18 +892,18 @@ ul {
 
 .client-outer .main-inner .items .item {
     display: block;
-    width: 825px;
-    margin: 0 auto;
 }
 
 .client-outer .main-inner .items .item .item-inner {
     font-size: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .client-outer .main-inner .items .item .item-inner .image-content {
-    display: inline-block;
+    display: block;
     width: 165px;
-    vertical-align: middle;
     padding-right: 25px;
     box-sizing: border-box;
     text-align: center;
@@ -1067,6 +1071,7 @@ ul {
     display: block;
     padding: 35px 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .insta-outer .main-inner {
@@ -1466,12 +1471,7 @@ ul {
 
     /* Block 6 End */
 
-    /* Block 8 start */
-    .client-outer .main-inner .items .item {
-        width: 754px;
-    }
-
-    /* Block 8 End */
+   
 
     /* Block 10 Start */
     .brand-outer .main-inner .items .item {
@@ -1637,9 +1637,7 @@ ul {
     /* Block 6 End */
 
     /* Block 8 start */
-    .client-outer .main-inner .items .item {
-        width: 732px;
-    }
+
 
     .client-outer .main-inner .items .item .item-inner {
         display: flex;
@@ -1888,9 +1886,7 @@ ul {
 
     /* Block 8 Start */
 
-    .client-outer .main-inner .items .item {
-        width: 592px;
-    }
+  
 
     /* Block 8 End */
 }
@@ -2003,10 +1999,7 @@ ul {
 
     /* Block 8 Start */
 
-    .client-outer .main-inner .items .item {
-        width: 392px;
-    }
-
+   
     .client-outer .main-inner .items .item .text-content {
         font-size: 16px;
     }
